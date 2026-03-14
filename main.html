@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sphumelele Khuzwayo — Software Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel=stylesheet href="styles.css">
+<script defer src="script.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- CURSOR -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#hero" class="nav-logo">SK<span>.</span></a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <label class="theme-toggle" title="Toggle dark / light mode" aria-label="Toggle dark mode">
+    <input type="checkbox" id="themeToggle">
+    <div class="toggle-track"></div>
+    <div class="toggle-thumb">
+      <!-- Sun -->
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="4"/>
+        <line x1="12" y1="2" x2="12" y2="4"/>
+        <line x1="12" y1="20" x2="12" y2="22"/>
+        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+        <line x1="2" y1="12" x2="4" y2="12"/>
+        <line x1="20" y1="12" x2="22" y2="12"/>
+        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+      </svg>
+      <!-- Moon -->
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+      </svg>
+    </div>
+  </label>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-inner">
+    <p class="hero-eyebrow">Available for internships &amp; grad roles — 2026</p>
+    <h1 class="hero-name">Sphumelele<br><em>Khuzwayo</em></h1>
+    <p class="hero-tagline">
+      Final-year software development student who builds clean, considered things — mostly for the web, sometimes for fun.
+    </p>
+    <div class="hero-cta-row">
+      <a href="#projects" class="btn btn-primary">See my work</a>
+      <a href="#contact" class="btn btn-ghost">Get in touch</a>
+    </div>
+  </div>
+  <div class="hero-scroll-hint">
+    <span class="scroll-line"></span>
+    scroll to see more
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="reveal">
+    <p class="section-label">01 / About</p>
+    <h2 class="section-title">A bit about <em>me</em></h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-photo-wrap reveal">
+      <div class="about-photo">
+        <img src="images/me.jpg" alt="Photo of me" class="about-photo-img">
+      </div>
+      <div class="about-offset-box"></div>
+    </div>
+    <div class="about-text reveal">
+      <p>
+        Hey — I'm Sphumelele, a final-year <strong>Diploma in Software Development</strong> student based in Durban.
+        I've spent the past three years studying and getting the know all on how software works, and how apps and websites are built and what is needed to make this function smoothly. I have a passion for creating clean, efficient code and building things that people find useful and enjoyable to use.
+         I do have more an obsession for clean looking interfaces and intuitive user experiences.
+          I believe that good design is just as important as good code, and I strive to create things that are not only functional but also a pleasure to use.
+      </p>
+      <p>
+        Right now I'm focused on <strong>full-stack web development</strong>, specifically working with
+        C++, HTML, and MySQL, PL/SQL. I care about code that's readable, systems that are honest
+        about their complexity, and interfaces that don't need a tutorial.
+      </p>
+      <p>
+        Outside of lectures I'm either contributing to open-source projects, building random side things,
+        or convincing friends that dark mode isn't a personality trait.
+      </p>
+      <div class="about-facts">
+        <div class="fact">
+          <div class="fact-label">Currently</div>
+          <div class="fact-value">Final Year, Diploma in Software Development</div>
+        </div>
+        <div class="fact">
+          <div class="fact-label">Based in</div>
+          <div class="fact-value">Durban, ZA</div>
+        </div>
+        <div class="fact">
+          <div class="fact-label">Looking for</div>
+          <div class="fact-value">Grad role / Internship</div>
+        </div>
+        <div class="fact">
+          <div class="fact-label">Graduating</div>
+          <div class="fact-value">November 2026</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="reveal">
+    <p class="section-label">02 / Skills</p>
+    <h2 class="section-title">Things I <em>know</em></h2>
+  </div>
+  <div class="skills-layout reveal">
+    <div class="skill-group">
+      <div class="skill-group-title">Frontend</div>
+      <div class="skill-tags">
+        <span class="skill-tag highlight">Java</span>
+        <span class="skill-tag">HTML / CSS</span>
+        <span class="skill-tag">Windows Forms (GUI)</span>
+        <span class="skill-tag">JavaScript</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-title">Backend</div>
+      <div class="skill-tags">
+        <span class="skill-tag highlight">C#</span>
+        <span class="skill-tag">.NET</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-title">Data &amp; Storage</div>
+      <div class="skill-tags">
+        <span class="skill-tag">MySQL</span>
+        <span class="skill-tag">SQL Server</span>
+        <span class="skill-tag">Database Design</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-title">Tools &amp; DevOps</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Git / GitHub</span>
+        <span class="skill-tag">Visual Studio</span>
+        <span class="skill-tag">VS Code</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-title">Currently learning</div>
+      <div class="skill-tags">
+        <span class="skill-tag highlight">Kotlin</span>
+        <span class="skill-tag">PHP</span>
+        <span class="skill-tag">React</span>
+        <span class="skill-tag">Next.js</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-title">Soft Skills</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Team Collaboration</span>
+        <span class="skill-tag">Agile / Scrum</span>
+        <span class="skill-tag">Problem Solving</span>
+        <span class="skill-tag">Adaptability</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="reveal">
+    <p class="section-label">03 / Projects</p>
+    <h2 class="section-title">Things I've <em>built</em></h2>
+  </div>
+  <div class="projects-grid">
+    <div class="project-card reveal">
+      <div class="project-num">001</div>
+      <h3 class="project-title">StudySync</h3>
+      <p class="project-desc">
+        A real-time collaborative study platform for university students — think Notion meets
+        a shared Pomodoro timer. Built as my final-year project; currently used by ~40 people at my campus.
+      </p>
+      <div class="project-tech">
+        <span>React</span><span>Node.js</span><span>Socket.io</span><span>PostgreSQL</span>
+      </div>
+      <div class="project-links">
+        <a href="#" class="project-link">GitHub</a>
+        <a href="#" class="project-link">Live demo</a>
+      </div>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-num">002</div>
+      <h3 class="project-title">Budgetly</h3>
+      <p class="project-desc">
+        Personal finance tracker with bank CSV import, category tagging, and a monthly
+        summary email. First time I wrote proper automated tests — learned a lot about
+        data validation the hard way.
+      </p>
+      <div class="project-tech">
+        <span>Next.js</span><span>TypeScript</span><span>Prisma</span><span>SendGrid</span>
+      </div>
+      <div class="project-links">
+        <a href="#" class="project-link">GitHub</a>
+      </div>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-num">003</div>
+      <h3 class="project-title">devlog CLI</h3>
+      <p class="project-desc">
+        A tiny command-line tool for keeping a daily dev journal directly in the terminal.
+        Stores entries as markdown, supports searching and tagging. My first real Python
+        package — published to PyPI.
+      </p>
+      <div class="project-tech">
+        <span>Python</span><span>Click</span><span>SQLite</span><span>PyPI</span>
+      </div>
+      <div class="project-links">
+        <a href="#" class="project-link">GitHub</a>
+        <a href="#" class="project-link">PyPI</a>
+      </div>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-num">004</div>
+      <h3 class="project-title">Campus Events API</h3>
+      <p class="project-desc">
+        REST API for aggregating campus events from multiple societies. Built for a hackathon
+        in 24 hours, won second place. Handles auth, pagination, and caching with Redis.
+      </p>
+      <div class="project-tech">
+        <span>Express</span><span>JWT</span><span>Redis</span><span>MySQL</span>
+      </div>
+      <div class="project-links">
+        <a href="#" class="project-link">GitHub</a>
+        <a href="#" class="project-link">Docs</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="reveal">
+    <p class="section-label">04 / Experience</p>
+    <h2 class="section-title">Where I've <em>been</em></h2>
+  </div>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">2024 – Present</div>
+      <div class="timeline-role">Diploma in Software Development</div>
+      <div class="timeline-org">Rosebank College- Durban</div>
+      <div class="timeline-body">
+        <ul>
+          <li>Focus: Systems Programming, Web Engineering, Databases, Software Design.</li>
+          <li>Learned to talk to non-technical clients without losing my mind.</li>
+          <li>Final year project: StudySync — real-time collaborative study platform.</li>
+        </ul>
+      </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="reveal">
+    <p class="section-label">05 / Contact</p>
+    <h2 class="section-title">Let's <em>talk</em></h2>
+  </div>
+  <div class="contact-layout">
+    <div>
+      <p class="contact-text">
+        I'm actively looking for graduate roles and internships starting Nov-2026.
+        If you're hiring, want to collaborate on something, or just want to chat about
+        software — my inbox is always open.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:sphumelelekhuzwayo373@gmail.com" class="contact-link">
+          <span class="contact-link-icon">✉</span>
+          sphumelelekhuzwayo373@gmail.com
+        </a>
+        <a href="https://github.com/Sphumelele420" target="_blank" class="contact-link">
+          <span class="contact-link-icon">⌥</span>
+          github.com/Sphumelele420
+        </a>
+        <a href="https://www.linkedin.com/in/sphumelele-khuzwayo-bb8143261/" target="_blank" class="contact-link">
+          <span class="contact-link-icon">↗</span>
+          linkedin.com/in/sphumelele-khuzwayo-bb8143261/
+        </a>
+        <a href="#" class="contact-link">
+          <span class="contact-link-icon">↓</span>
+          Download CV (PDF)
+        </a>
+      </div>
+    </div>
+    <div class="contact-form reveal">
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label" for="name">Name</label>
+          <input class="form-input" type="text" id="name" placeholder="Your name">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="email">Email</label>
+          <input class="form-input" type="email" id="email" placeholder="you@company.com">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="subject">Subject</label>
+        <input class="form-input" type="text" id="subject" placeholder="Grad role, internship, or just chat">
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="message">Message</label>
+        <textarea class="form-textarea" id="message" placeholder="What's on your mind?"></textarea>
+      </div>
+      <button class="btn-send" onclick="handleSend()">Send message →</button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span>© 2026 Sphumelele Khuzwayo</span>
+  <span>Built with HTML, CSS &amp; JS</span>
+  <a href="#hero">Back to top ↑</a>
+</footer>
+
+
+</body>
+</html>
